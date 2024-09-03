@@ -1,0 +1,221 @@
+
+@media (max-width: 1200px){
+    .message-sidebar{
+        width: 40%;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1300px){
+    .ai-sidebar{
+        width: 35%;
+    }
+}
+
+
+@media (max-width: 1200px)
+{
+    .tutimg{
+        height: 320px;
+    }
+}
+
+
+
+
+@media (max-width: 1024px)
+{
+    .tutimg{
+        height: 270px;
+    }
+}
+
+
+@media (max-width: 991px)
+{
+    .ai-sidebar{
+        width: 35%;
+    }
+}
+
+
+
+@media (max-width: 768px)
+{
+    .custom-tab .nav-link {
+        font-size: 16px;
+        padding: 7px 12px;
+    }
+
+    .filter-ctn{
+        gap: 10px!important;
+    }
+
+    .filter-ctn button,
+    .filter-ctn button:hover,
+    .filter-ctn button:active,
+    .filter-ctn button:focus,
+    .filter-ctn button:focus-visible{
+        gap: 10px;
+        font-size: 16px;
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .tutimg{
+        height: 220px;
+    }
+
+    .ai-sidebar{
+        position: absolute;
+        left: -300px;
+        height: 100%;
+        z-index: 10;
+        width: 250px;
+    }
+
+    .ai-sidebar .ai-sidebar-close{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 10;
+        width: 10px;
+        opacity: .5;
+    }
+
+    .ai-sidebar .ai-card-header{
+        padding-top: 40px;
+    }
+
+    .ai-sidebar .ai-card .ai-chats{
+        padding-top: 150px;
+    }
+
+    .ai-main .ai-main-main{
+        padding-top: 70px;
+    }
+}
+
+
+
+
+
+@media (max-width: 576px)
+{
+     .profile-dropdown.notify-dropdown .notify-dropdown-items{
+          width: 350px;
+          padding: 25px;
+          right: -100px;
+      }
+
+      .custom-tab .nav-link {
+        margin-bottom: 20px;
+    }
+
+    .tutimg{
+        height: 270px;
+    }
+
+    .message-sidebar{
+        width: 320px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 50;
+        height: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 425px)
+{
+     .main .profile-dropdown .name,
+     .main .profile-dropdown .role,
+     .main .profile-dropdown .directions {
+         display: none;
+     }
+ 
+     .main .profile-dropdown{
+         padding: 7px!important;
+         width: auto;
+     }
+
+     .profile-dropdown .d-flex{
+          gap: 0!important;
+     }
+ 
+     .profile-dropdown-items.profile-items {
+         width: 200px!important;
+         left: -145px!important;
+     }
+
+     .profile-dropdown.notify-dropdown .notify-dropdown-items{
+          width: 350px!important;
+          right: -55px;
+      }
+
+      .tutimg{
+        height: 200px;
+    }
+
+    .ai-card-footer .suggest{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .ai-card-footer .sg-card{
+        margin-bottom: 10px;
+    }
+
+    .ai-card-footer .sg-card button{
+        display: none;
+    }
+
+    .message-sidebar{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 375px){
+     .profile-dropdown-items.profile-items {
+          left: -130px!important;
+      }
+ 
+      .profile-dropdown.notify-dropdown .notify-dropdown-items{
+           right: -65px;
+       }
+
+       .tutimg{
+        height: 170px;
+    }
+}
+
+
+
+
+@media (max-width: 320px){
+
+     .main-header h1.heading {
+          display: none!important;
+      }
+
+      .main-header .d-flex:first-child{
+          width: 100%;
+      }
+
+     .profile-dropdown-items.profile-items {
+          left: -140px!important;
+      }
+ 
+      .profile-dropdown.notify-dropdown .notify-dropdown-items{
+           right: -65px;
+           width: 300px!important;
+       }
+
+       .tutimg{
+        height: 140px;
+    }
+}

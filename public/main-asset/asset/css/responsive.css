@@ -1,0 +1,488 @@
+/**************** 1024px ***************/
+
+@media (max-width: 1024px){
+    .navbar #logo{
+         width: 150px;
+    }
+
+    .hero .hero-header{
+         font-size: 50px;
+     }
+
+     .unknown-ctn.first{
+         margin-right: 20px;
+     }
+     .unknown-ctn.last{
+         margin-left: 20px;
+     }
+
+     .testi-card{
+         width: 295px;
+     }
+
+     .about-hero .content{
+         max-width: 60%;
+     }
+     .about-hero .content h3{
+         font-size: 32px;
+     }
+ 
+     .about-hero .content p{
+         font-size: 16px;
+     }
+
+     .unknown{
+         height: 250px;
+     }
+
+     .plyr video{
+       width: 130%;
+   }
+
+   .blog-card .img img{
+       width: auto;
+       height: 100%;
+   }
+
+   #single-blog .post-img img{
+       height: 100%;
+       width: auto;
+   }
+
+
+}
+
+/**************** 991px ***************/
+
+@media (max-width: 991px){
+    .hero .hero-content-ctn{
+         max-width: 100%;
+     }
+
+     .hero .hero-header{
+         text-align: center;
+       
+         max-width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .hero .support-text, 
+    .hero .support-text1{
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+    .hero-btn-ctn{
+         text-align: center;
+    }
+
+    .hero .container {
+         padding-top: 0px;
+     }
+
+     section#about p{
+         max-width: 100%;
+     }
+
+     .p-describe.about{
+         max-width: 100%;
+     }
+
+     section#features .section-sub-title{
+         max-width: 80%;
+     }
+
+     section#features img.pr{
+         padding-right: 0;
+     }
+     
+     section#features img.pl{
+         padding-left: 0;
+     }
+
+     .testi-card{
+         width: 320px;
+     }
+
+     .about-hero .content{
+         max-width: 80%;
+         left: -20px;
+         top: 15px;
+     }
+     .about-hero .content h3{
+         font-size: 25px;
+     }
+ 
+     .about-hero img{
+         float: none;
+     }
+
+     section#mission .content-mission-content{
+         margin: 0 0 0 15px;
+     } 
+
+     .unknown img{
+         width: auto;
+         height: 100%;
+     }
+
+     .plyr video{
+       width: 100%;
+   }
+
+   .blog-card .img img{
+       width: auto;
+       height: 100%;
+   }
+
+   #single-blog .post-img{
+       height: 450px;
+   }
+
+
+
+}
+
+
+/**************** 768px ***************/
+
+@media (max-width: 768px){
+    .section-sub-title.about{
+         max-width: 80%;
+     }
+
+     section#features .section-sub-title{
+         max-width: 70%;
+     }
+
+     .about-hero .content{
+         max-width: 60%;
+         left: -20px;
+         top: 15px;
+     }
+
+     .about-hero .content p{
+         font-size: 16px;
+     }
+     .about-hero img{
+         float: right;
+     }
+
+     .breadcrumb-title{
+       font-size: 30px;
+       width: 100%;
+       text-align: center;
+  }
+
+}
+
+
+
+@media (max-width: 767px){
+    .testimonial-swiper .swiper-slide
+    {
+         height: auto!important;
+         display: flex;
+         justify-content: center;
+    }
+
+
+    .git-ctn{
+         margin-right: 0;
+    }
+
+    
+   .blog-card .img img{
+       width: auto;
+       height: 100%;
+   }
+}
+
+
+
+
+
+/**************** 576px ***************/
+
+@media (max-width: 576px){
+    .hero .hero-header{
+         font-size: 40px;
+     }
+
+     .hero .support-text {
+       max-width: 100%;
+   }
+
+   .hero .support-text1 {
+       max-width: 100%;
+   }
+
+     .unknown-ctn.first{
+         margin-right: 0;
+     }
+     .unknown-ctn.last{
+         margin-left: 0;
+     }
+
+     .unknown{
+         height: 300px;
+     }
+
+     .section-sub-title.about{
+         max-width: 90%;
+     }
+     
+     section#features .section-sub-title{
+         max-width: 85%;
+     }
+
+
+    #testimonial p.support-text{
+         font-size: 20px;
+    }
+
+     .about-hero .content{
+         max-width: 80%;
+         left: 0;
+     }
+
+     .about-hero img{
+         float: none;
+     }
+
+     section#mission p.intro{
+         max-width: 100%;
+     }
+
+     section#mission .content-mission-content{
+         margin: 0;
+     } 
+ 
+     .ab-sub-title{
+         margin-top: 30px;
+     }
+
+     .breadcrumb-title{
+         font-size: 40px;
+    }
+
+    
+   .blog-card .img img{
+       width: auto;
+       height: 100%;
+   }
+
+}
+
+
+
+/**************** 425px ***************/
+
+@media (max-width: 425px){
+    .hero .hero-header{
+         font-size: 40px;
+         max-width: 100%;
+         text-align: start;
+     }
+
+     .hero .support-text, 
+     .hero .support-text1{
+          max-width: 95%;
+          font-size: 16px;
+          text-align: start;
+     }
+
+     .hero .custom-btn {
+       padding: 12px 25px!important;
+    }
+
+     .hero .container {
+         padding-top: 20px;
+     }
+
+     .section-title{
+         font-size: 40px;
+     }
+
+     section#about p{
+         text-align: start;
+     }
+
+     .section-sub-title.about{
+         max-width: 100%;
+     }
+
+     .ctn-pt-5{
+         padding-top: 1rem;
+     }
+
+     #testimonial p.support-text{
+         font-size: 22px;
+     }
+
+     .about-hero .content{
+         max-width: 95%;
+         width: 95%;
+         left:-20px;
+         margin-top: 0px;
+     }
+ 
+     .about-hero .content p{
+         font-size: 14px;
+     }
+ 
+     .about-hero .content small{
+         font-size: 14px;
+     }
+
+     .about-hero .content h3 {
+         font-size: 22px;
+     }
+
+     section#mission img{
+         border: 20px solid var(--primary-color-20);
+         border-bottom: 0;
+     }
+
+     .breadcrumb-title{
+         font-size: 30px;
+         width: 100%;
+         text-align: center;
+    }
+
+    .btn-inq{
+         width: 100%!important;
+    }
+
+    
+   .blog-card .img img{
+       height: auto;
+       width: 100%;
+   }
+
+   #single-blog .post-img{
+       height: 300px;
+   }
+
+   #single-blog .post-img img{
+       height: 100%;
+       width: auto;
+   }
+
+   #single-blog .post-title{
+       font-size: 30px;
+   }
+
+}
+
+
+/**************** 375px ***************/
+
+@media (max-width: 375px){
+
+     .hero .hero-header{
+         font-size: 35px;
+     }
+
+     .hero .custom-btn{
+         font-size: 14px;
+         padding: 12px 20px!important;
+     }
+
+
+     .section-title{
+         font-size: 35px;
+     }
+
+     section#features .section-sub-title{
+         max-width: 100%;
+     }
+
+     #testimonial p.support-text{
+         font-size: 20px;
+     }
+
+
+     .about-hero .content p {
+         font-size: 13px;
+     }
+     
+     .ckd-pswd{
+         align-items: start!important;
+         justify-content: start!important;
+         flex-direction: column!important;
+         gap: 10px;
+     }
+
+     .auth-ctn .custom-btn-outline {
+       font-size: 14px;
+   }
+
+   #single-blog .post-img{
+       height: 250px;
+   }
+
+   #single-blog .post-img img{
+       height: 100%;
+       width: auto;
+   }
+
+}
+
+
+/**************** 320px ***************/
+
+@media (max-width: 320px){
+    .hero .hero-header{
+         font-size: 30px;
+     }  
+
+     .hero .custom-btn{
+         font-size: 14px;
+         padding: 12px 15px!important;
+     }
+
+
+     .section-title{
+         font-size: 30px;
+     }
+
+     #testimonial p.support-text{
+         font-size: 16px;
+     }
+
+     .testi-card .testifier-role {
+         font-size: 14px;
+     }
+
+     .testi-card .testifier {
+         font-size: 18px;
+     }
+     
+
+     .about-hero .content h3{
+         font-size: 18px;
+     }
+     .about-hero .content small{
+         font-size: 12px;
+     }
+ 
+     .about-hero .content{
+         padding: 20px;
+     }
+
+     .breadcrumb-title{
+         font-size: 30px;
+       }
+
+       .blog-card .img img{
+           width: auto;
+           height: 100%;
+       }
+
+
+
+
+}
