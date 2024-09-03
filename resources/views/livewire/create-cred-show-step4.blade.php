@@ -329,14 +329,7 @@
                }
         }
 
-        async function getAWSCredentials() {
-            return {
-                accessKeyId: 'AKIATPQ24EVKVOC5DUYZ',
-                secretAccessKey: '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',
-                signatureVersion: 'v4',
-                region: 'us-east-1'
-            };
-        }
+       
 
         document.getElementById('startButton').onclick = start;
         document.getElementById('recordVideoButton').onclick =  startRecording;
